@@ -88,3 +88,20 @@ hr:not([size]) {
 .survey{
     margin-left: 10%;
 }
+.probState{
+    display: flex;
+    justify-content: center;
+}
+.problem{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.valueProp{
+    display: flex;
+    justify-content: center;
+}
+.lead{
+    margin-right: 10%;
+}

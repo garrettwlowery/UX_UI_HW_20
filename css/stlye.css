@@ -1,0 +1,90 @@
+body{
+    background-color: #132032;
+    color: #F1F7ED;
+}
+.navigation{
+    background-color: #DC0433;
+}
+.logo img{
+    justify-content: flex-start;
+    height: 75px;
+    padding-left: 30%;
+    padding-bottom: 1%;
+}
+.navBar{
+    height: 90px;
+}
+.navTabs{
+    padding-top: 37px;
+    padding-right: 5%;
+}
+.nav-link{
+    background-color: black;
+    color: #F1F7ED;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+}
+.active{
+    font-weight: bold;
+}
+.container{
+    padding-top: 25px;
+}
+.display-4{
+    padding-bottom: 25px;
+    font-family: 'Playfair Display', serif;
+    border-bottom: thin solid #DC0433;
+    border-width: 2px;
+}
+.lead{
+    font-family: 'Spartan', sans-serif;
+}
+.hero{
+    padding-bottom: 25px;
+}
+.featurette-divider{
+    background-color: #DC0433;
+}
+hr:not([size]) {
+    height: 5px;
+}
+.text-muted{
+    color: #DC0433!important;
+    opacity: 75%!important;
+}
+.protoPersona{
+    margin-left: 5%;
+}
+.phase1{
+    margin-left: 3%;
+    font-family: 'Playfair Display', serif;  
+}
+.researchSection .lead{
+    padding-left: 10%;
+    padding-top: 20px;
+}
+.col-md-5 img{
+    height: 250px
+}
+.contentHer{
+    display: flex;
+    margin-right: 10%;
+
+}
+.interviews img{
+    height: 300px;
+    padding-top: 20px;
+    padding-left: 20%;
+}
+.compAnal{
+    margin-left: 5%;
+}
+.userInt{
+    margin-left: 5%;
+}
+.heuristic{
+    margin-left: 10%;
+}
+.survey{
+    margin-left: 10%;
+}

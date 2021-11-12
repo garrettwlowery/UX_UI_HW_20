@@ -63,8 +63,9 @@ hr:not([size]) {
     padding-left: 10%;
     padding-top: 20px;
 }
-.col-md-5 img{
-    height: 250px
+.protoImg img{
+    height: 350px;
+    width: 750px;
 }
 .contentHer{
     display: flex;
@@ -85,6 +86,14 @@ hr:not([size]) {
 .heuristic{
     margin-left: 10%;
 }
+.heuristic img{
+    height: 300px;
+    width: 700px;
+}
+.competitor img{
+    width: 750px;
+    height: 300px;
+}
 .survey{
     margin-left: 10%;
 }
@@ -104,4 +113,72 @@ hr:not([size]) {
 }
 .lead{
     margin-right: 10%;
-}}}}}
+}
+.card{
+    height: 400px;
+    margin-left: 10%;
+}
+.userflow{
+    height
+}
+.lowfi{
+    padding: 10px
+}
+.testing img{
+    justify-content: center;
+}
+.styleGuide{
+    display: flex;
+    justify-content: center;
+}
+.hifi{
+    display: flex;
+    justify-content: center;
+}
+.col-6 p{
+    width: 800;
+}
+.product-device {
+    position: absolute;
+    right: 10%;
+    bottom: -30%;
+    width: 300px;
+    height: 540px;
+    background-color: #333;
+    border-radius: 21px;
+    transform: rotate(30deg);
+  }
+  
+  .product-device::before {
+    position: absolute;
+    top: 10%;
+    right: 10px;
+    bottom: 10%;
+    left: 10px;
+    content: "";
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 5px;
+  }
+  
+  .product-device-2 {
+    top: -25%;
+    right: auto;
+    bottom: 0;
+    left: 5%;
+    background-color: #e5e5e5;
+  }
+  
+  
+  /*
+   * Extra utilities
+   */
+  
+  .flex-equal > * {
+    flex: 1;
+  }
+  @media (min-width: 768px) {
+    .flex-md-equal > * {
+      flex: 1;
+    }
+  }
+  

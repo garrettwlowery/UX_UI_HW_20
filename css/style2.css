@@ -1,0 +1,273 @@
+body{
+    background-color: #132032;
+    color: #F1F7ED;
+    font-family: 'Spartan', sans-serif;
+}
+a{
+    color: #F1F7ED;
+    font-style: normal;
+}
+.navigation{
+    background-color: #DC0433;
+}
+.logo img{
+    justify-content: flex-start;
+    height: 75px;
+    padding-left: 30%;
+    padding-bottom: 1%;
+}
+.navBar{
+    height: 90px;
+}
+.navTabs{
+    padding-top: 37px;
+    padding-right: 5%;
+}
+.nav-link{
+    background-color: black;
+    color: #F1F7ED;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+}
+.active{
+    font-weight: bold;
+}
+.abtMe{
+    display: flex;
+    justify-content: start;
+    padding-top: 50px;
+    font-family: 'Playfair Display', serif;
+    margin-left: 30%;
+    border-bottom: thin solid #DC0433;
+    margin-right: 40%;
+    border-width: 2px;
+}
+.hr hr{
+    display: flex;
+    margin-left: 28%;
+    margin-right: 40%;
+    background-color: #DC0433;
+}
+.inline-block{
+    display: inline-block;
+    vertical-align: top;
+}
+header{
+    background-color: #DC0433;
+    height: 100px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    align-content: flex-end;
+}
+.logo img{
+    display: flex;
+    height: 70px;
+    padding-left: 100px;
+}
+
+.logo{
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+}
+nav{
+    width: 73%;
+    padding: 1%;
+}
+ul{
+    list-style-type: none;
+    width: 50%;
+    margin-left: auto;
+}
+.heroImg{
+    display: flex;
+    flex-direction: row;
+    padding: 25px;
+    align-content: center;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+.content img{
+    padding-right: 25px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    width: 1000px;
+    height: 0 auto;
+    padding-left: 300px;
+}
+.product-device {
+    position: absolute;
+    right: 10%;
+    bottom: -30%;
+    width: 300px;
+    height: 540px;
+    background-color: #333;
+    border-radius: 21px;
+    transform: rotate(30deg);
+  }
+  
+  .product-device::before {
+    position: absolute;
+    top: 10%;
+    right: 10px;
+    bottom: 10%;
+    left: 10px;
+    content: "";
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 5px;
+  }
+  
+  .product-device-2 {
+    top: -25%;
+    right: auto;
+    bottom: 0;
+    left: 5%;
+    background-color: #e5e5e5;
+  }
+  
+  
+  /*
+   * Extra utilities
+   */
+  
+  .flex-equal > * {
+    flex: 1;
+  }
+  @media (min-width: 768px) {
+    .flex-md-equal > * {
+      flex: 1;
+    }
+  }
+  
+.aboutMe, .work, .contact, .resume{
+    cursor: pointer;
+}
+.work, #panel{
+    text-align: center;
+    background-color: #DC0433;
+    max-width: 0 auto;
+}
+#panel{
+    padding-top: 45px;
+    display: none;
+}
+/* Flex CSS */
+.mySkills{
+    padding-bottom: 100px;
+}
+.flexContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%
+}
+.flexContainer img{
+    width: 300px;
+    height: 200px;
+    object-fit: contain;
+}
+.skill1{
+    width: 25%;   
+}
+.skill2{
+    width: 25%;  
+}
+.skill3{
+    width: 25%;   
+}
+h1{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+h3{
+    font-family: 'Playfair Display', serif;
+}
+/* Grid CSS */
+.workGrid{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-areas:
+    "workImg1 workContent1"
+    "workImg2 workContent2"
+    "workImg3 workContent3";
+    object-fit: contain;
+    align-content: center;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.workImg1{
+    padding-top: 20px;
+}
+.workImg2{
+    padding-top: 20px;
+}
+.workImg3{
+    padding-top: 20px;
+    padding-left: 50px;
+}
+.workContent1{
+    padding-left: 250px;
+    padding-top: 60px
+}
+.workContent2{
+    padding-left: 250px;
+    padding-top: 60px
+}
+.workContent3{
+    padding-left: 250px;
+    padding-top: 60px
+}
+.viewButton{
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 600px){
+    .flexContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .skill1{
+        width: 100%;   
+        }
+    .skill2{
+        width: 100%;  
+        }
+    .skill3{
+        width: 100%; 
+    }
+    .workGrid {
+        grid-template-rows: 300px 300px 300px 300px 300px 300px;
+        grid-template-columns: 100%;
+        grid-template-areas:
+        "workImg1"
+        "workContent1"
+        "workImg2"
+        "workContent2"
+        "workImg3"
+        "workContent3";
+        padding-left: 5%;
+    }
+    .workImg1, .workImg2, .workImg3P{
+        padding-left: 0%;
+    }
+    .workContent1, .workContent2, .workContent3{
+       padding-left: 0px;
+    }
+    .workImg3{
+        padding-left: 50px;
+    }
+}
